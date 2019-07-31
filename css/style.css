@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 a{
     text-decoration: none;
@@ -46,6 +47,9 @@ nav{
 }
 .topnav .icon{
     display: none;
+}
+.content{
+    text-align: center;
 }
 .mw-100{
     max-width: 100%;
@@ -94,7 +98,14 @@ footer nav a:hover{
     background-color: #494949;
     border-radius: 50%;
 }
-
+.content{
+    display: flex;
+    
+}
+.left_content, .rigth__content{
+    width: 50%;
+    height: 600px;
+}
 
 
 @media screen and (max-width: 768px){
